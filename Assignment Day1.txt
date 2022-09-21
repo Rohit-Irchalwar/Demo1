@@ -1,0 +1,291 @@
+--------------------------------------------------------------------------------------------------
+Question 1):-
+package day1Assignment;
+
+public class welcomemsg {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome");
+		// TODO Auto-generated method stub
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------
+Question 2):-
+package day1Assignment;
+
+public class floatnumsum3 {
+
+	public static void main(String[] args) {
+		float a = 10.84f;  
+        float b = 29.132f;  
+        float c = 67.99f;
+        float sum;
+        
+        sum=a+b+c;
+        
+        System.out.println(sum);// TODO Auto-generated method stub
+
+	}
+
+}
+---------------------------------------------------------------------------------------------------
+Question 3):-
+package day1Assignment;
+
+public class floatnumsum3 {
+
+	public static void main(String[] args) {
+		float a = 10.84f;  
+        float b = 29.132f;  
+        float c = 67.99f;
+        float sum;
+        
+        sum=a+b+c;
+        
+        System.out.println(sum);// TODO Auto-generated method stub
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------
+question 4):-
+package day1Assignment;
+import java.util.Scanner;
+
+public class evenorodd {
+
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        String evenOdd = (num % 2 == 0) ? "even" : "odd";
+
+        System.out.println(num + " is " + evenOdd);
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
+--------------------------------------------------------------------------------------------------------
+Question 5):-
+package day1Assignment;
+
+public class question5 {
+
+	public static void main(String[] args) {
+		int a=41;
+		int b=54;
+		int c=66;
+		
+		if(a>20 && a<b && a<c)
+			
+		System.out.println("condion is true");
+		else
+			
+			System.out.println("condition fail");
+	
+		// TODO Auto-generated method stub
+
+	}
+
+}
+------------------------------------------------------------------------------------------------------------
+Question 7):-
+package day1Assignment;
+import java.util.Scanner;
+
+public class bonuseligible {
+
+	public static void main(String[] args) {
+		float sal;
+		float bonus;
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter Sales ");
+		
+		sal=s.nextInt();
+		//bonus=float((20/100 )* sal);
+		
+		if (sal>10000)
+		  System.out.println("eligible for bonus");
+		
+		else
+		  System.out.println("not eligible for bonus");
+		
+		
+		bonus=(float) (0.2 * (sal));
+		System.out.println(bonus);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------
+Question 8):-
+package day1Assignment;
+import java.util.Scanner;
+public class voting {
+
+	public static void main(String[] args) {
+		int age;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your age=");
+        age = sc.nextInt();
+        if (age >= 18)
+        
+            System.out.println("You are eligible for vote.");
+        
+        else
+        
+            System.out.println("You are not eligible for vote.");
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+----------------------------------------------------------------------------------------
+Question 9):-
+package day1Assignment;
+import java.util.Scanner;
+public class averageofsub {
+
+	public static void main(String[] args) {
+		float eng, phy, chem, math, comp; 
+	     double total, average, percentage;
+	    Scanner op=new Scanner(System.in);
+	    /* Input marks of all five subjects */
+	    System.out.println("Enter marks of five subjects:");
+	    System.out.print("Enter marks of English subjects:");
+	    eng=op.nextFloat();
+	    System.out.print("Enter marks of physics subjects:");
+	    phy=op.nextFloat();
+	    System.out.print("Enter marks of chemistry subjects:");
+	    chem=op.nextFloat();
+	    System.out.print("Enter marks of maths subjects:");
+	    math=op.nextFloat();
+	    System.out.print("Enter marks of computers subjects:");
+	    comp=op.nextFloat();
+	    
+	    total = eng + phy + chem + math + comp;
+	    average = (total / 5.0);
+	    
+	    System.out.println("Total marks ="+total);
+	    System.out.println("Average marks = "+average);
+	    
+	    
+	   if (average>=40)
+		   System.out.println("pass");
+	   else
+		   System.out.println("fail");
+		   
+		   
+		   
+	    
+	    
+		
+		
+
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------
+Question 10):-
+package day1Assignment;
+
+import java.util.Scanner;
+
+public class employeeinfo {
+
+	
+		public static void main(String[] args) {
+			//string is class in java lang package
+			String name ;
+			char gender ;
+			int age;
+			float salary;
+			Scanner s=new Scanner(System.in);
+			System.out.println("Enter name ");
+			name=s.next();
+			System.out.println("enter age");
+			age=s.nextInt();
+			System.out.println("enetr salary");
+			salary=s.nextFloat();
+			System.out.println("Enter gender");
+			gender=s.next().charAt(0);
+			
+			System.out.print(name + " " + age + " " + salary);
+		// TODO Auto-generated method stub
+
+	}
+
+}
+--------------------------------------------------------------------------------------------------------------------
+Question 11):-
+package day1Assignment;
+import java.util.*;
+public class graeaternumber {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("Enter a number ");
+
+		int a=sc.nextInt();
+
+		System.out.println("Enter a number ");
+
+		int b=sc.nextInt();
+
+		if(a>b)
+
+		System.out.println(a);
+
+		else
+
+		System.out.println(b);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------
+Question 12):-
+package day1Assignment;
+import java.util.Scanner;
+
+public class discount {
+
+	public static void main(String[] args) {
+		String name;
+		int cost;
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter product name ");
+		name=s.next();
+		System.out.println("Enter price");
+		cost=s.nextInt();
+		
+		if (cost>2000)
+			System.out.println("discount" + (0.1 * cost));
+		else
+			System.out.println("discount" + (0.07 * cost));
+
+			
+		
+
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------
